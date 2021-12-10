@@ -1,0 +1,57 @@
+.formSignup__inputs p {
+  color: red;
+}
+
+.form {
+  background: linear-gradient(90deg, rgb(4, 32, 65), rgb(63, 8, 80));
+  color: white;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .formSignup__inputs {
+    width: 80%;
+    height: 5em;
+    margin: 5px auto;
+  }
+
+  .formSignup__input {
+    display: block;
+    padding-left: 10px;
+    outline: none;
+    border-radius: 2px;
+    height: 30px;
+    min-height: 30px;
+    width: 97%;
+    border: none;
+  }
+
+  .formSignup__button {
+    width: 80%;
+    height: 40px;
+    font-weight: 600;
+    background: linear-gradient(
+      90deg,
+      rgb(39, 176, 255) 0%,
+      rgb(0, 232, 236) 100%
+    );
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin: 10px 0;
+
+    &:hover {
+      cursor: pointer;
+      color: white;
+      background: linear-gradient(
+        90deg,
+        rgb(39, 143, 255) 0%,
+        rgb(12, 99, 250) 100%
+      );
+      transition: all 0.4s ease-out;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+.App {
+  height: 100vh;
+  max-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    120deg,
+    rgb(189, 77, 223),
+    rgb(206, 106, 48),
+    rgb(46, 119, 202)
+  );
+  font-family: "Roboto", sans-serif;
+}
